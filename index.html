@@ -3,184 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/styles.css">
+
     <title>Borcal - Calzado de Seguridad</title>
-    <style>
-        body, html {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            color: #ffffff;
-        }
-
-        /* Imagen de fondo y overlay */
-        .hero {
-            position: relative;
-            height: 100vh;
-            background: url('Fabrica-pano-borcal.jpg') no-repeat center center/cover;
-        }
-
-        .hero::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.3); /* Overlay oscuro */
-        }
-
-        .hero-content {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            text-align: center;
-            padding: 20px;
-        }
-
-        /*.hero h1 {
-            font-size: 3em;
-            margin: 0;
-            color: white
-        }*/
-        .hero h1 {
-            font-size: 3em;
-            margin: 0;
-            color: white;
-            border: 1px solid white; /* Borde fino blanco */
-            padding: 10px; /* Añadir un poco de espacio dentro del borde */
-            display: inline-block; /* Para que el borde se ajuste al tamaño del texto */
-            border-radius: 15px; /* Curvatura en los ángulos */
-        }
-        
-
-        .hero h2 {
-            font-size: 1.5em;
-            margin-top: 10px;
-            font-weight: 300;
-        }
-
-        /* Texto principal */
-        .main-text {
-            padding: 50px 20px;
-            background: #2b2b2b; /* fondo oscuro */
-            text-align: center;
-        }
-
-        .main-text p {
-            font-size: 1.2em;
-            line-height: 1.5em;
-            max-width: 800px;
-            margin: 0 auto;
-        }
-
-        /* Llamada a la acción */
-        .cta {
-        margin-top: 20px;
-        background-color: #f1c40f; /* Color amarillo de Borcal */
-        color: #000000; /* Texto en negro */
-        border: 2px solid #000000; /* Borde negro */
-        padding: 15px 30px;
-        font-size: 1.2em;
-        cursor: pointer;
-        transition: background-color 0.3s;
-        border-radius: 15px;
-        }
-
-        .cta:hover {
-        background-color: #d4ac0d; /* Un amarillo más oscuro al hacer hover */
-        }
-
-        /* Sección de productos */
-        .products {
-            padding: 50px 20px;
-            background: #ffffff;
-            color: #333;
-            text-align: center;
-        }
-
-        .product-item {
-            display: inline-block;
-            margin: 20px;
-            max-width: 200px;
-        }
-
-        .product-item img {
-            width: 100%;
-            height: auto;
-            border-radius: 15px;
-        }
-
-        /* Botones de cada línea de calzado */
-        .product-item button {
-        margin-top: 10px;
-        padding: 10px 20px;
-        background-color: #f1c40f; /* Color amarillo de Borcal */
-        color: #000000; /* Texto en negro */
-        border: 1px solid #000000; /* Borde negro */
-        cursor: pointer;
-        transition: background-color 0.3s;
-        border-radius: 15px; /* curvatura de los angulos */
-        }
-
-        .product-item button:hover {
-        background-color: #d4ac0d; /* Un amarillo más oscuro al hacer hover */
-        }
-
-
-        /* Estilos para el formulario de contacto */
-        .contact-form {
-            padding: 50px 20px;
-            background-color: #2b2b2b; /* Fondo oscuro */
-            color: #ffffff;
-            text-align: center;
-            max-width: 600px;
-            margin: 0 auto;
-        }
-
-        .contact-form h2 {
-            margin-bottom: 20px;
-            font-size: 2em;
-        }
-
-        .contact-form label {
-            display: block;
-            margin-bottom: 10px;
-            text-align: left;
-        }
-
-        .contact-form input, .contact-form textarea {
-            width: 100%;
-            padding: 5px;
-            margin-bottom: 20px;
-            border: 2px solid #ffffff; /* Borde blanco */
-            border-radius: 5px;
-            background-color: #444;
-            color: #ffffff;
-        }
-
-        .contact-form input:focus, .contact-form textarea:focus {
-            outline: none;
-            border-color: #f1c40f; /* Color amarillo */
-        }
-
-        .submit-btn {
-            background-color: #f1c40f; /* Color amarillo de Borcal */
-            color: #000000; /* Texto negro */
-            border: 2px solid #000000; /* Borde negro */
-            padding: 15px 30px;
-            font-size: 1.2em;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-
-        .submit-btn:hover {
-            background-color: #d4ac0d; /* Un amarillo más oscuro al hacer hover */
-        }
-
-        
-    </style>
 </head>
+
 <body>
 
     <!-- Imagen de fondo con título y subtítulo -->
@@ -205,19 +34,19 @@
     <!-- Sección de productos destacados -->
     <div class="products">
         <div class="product-item">
-            <img src="Linea_Bidensidad.png" alt="Línea 1">
+            <img src="/img/Linea_Bidensidad.png" alt="Línea 1">
             <button onclick="location.href='#linea1'">Ver más</button>
         </div>
         <div class="product-item">
-            <img src="Linea_ECo.png" alt="Línea 2">
+            <img src="/img/Linea_ECo.png" alt="Línea 2">
             <button onclick="location.href='#linea2'">Ver más</button>
         </div>
         <div class="product-item">
-            <img src="Linea_Zapatilla.png" alt="Línea 3">
+            <img src="/img/Linea_Zapatilla.png" alt="Línea 3">
             <button onclick="location.href='#linea3'">Ver más</button>
         </div>
         <div class="product-item">
-            <img src="Linea -Minera.jpeg" alt="Línea 4">
+            <img src="/img/Linea -Minera.jpeg" alt="Línea 4">
             <button onclick="location.href='#linea4'">Ver más</button>
         </div>
     </div>
