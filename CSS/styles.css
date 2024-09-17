@@ -31,11 +31,6 @@ body, html {
     padding: 20px;
 }
 
-/*.hero h1 {
-    font-size: 3em;
-    margin: 0;
-    color: white
-}*/
 .hero h1 {
     font-size: 3em;
     margin: 0;
@@ -45,7 +40,6 @@ body, html {
     display: inline-block; /* Para que el borde se ajuste al tamaño del texto */
     border-radius: 15px; /* Curvatura en los ángulos */
 }
-
 
 .hero h2 {
     font-size: 1.5em;
@@ -169,4 +163,14 @@ background-color: #d4ac0d; /* Un amarillo más oscuro al hacer hover */
 
 .submit-btn:hover {
     background-color: #d4ac0d; /* Un amarillo más oscuro al hacer hover */
+}
+
+.product-line {
+background-color: #000000;
+}
+
+#linea1 {
+    height: 1px;
+    margin: 30px 0;
+    background-color: black;
 }
