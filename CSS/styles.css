@@ -3,6 +3,7 @@ body, html {
     padding: 0;
     font-family: Arial, sans-serif;
     color: #ffffff;
+    background-color: #2b2b2b;
 }
 
 /* Imagen de fondo y overlay */
@@ -19,7 +20,7 @@ body, html {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.3); /* Overlay oscuro */
+    background: rgba(0, 0, 0, 0.2); /* Overlay oscuro */
 }
 
 .hero-content {
@@ -78,7 +79,7 @@ border-radius: 15px;
 background-color: #d4ac0d; /* Un amarillo más oscuro al hacer hover */
 }
 
-/* Sección de productos */
+/* Estilo Sección Lineas de productos */
 .products {
     padding: 50px 20px;
     background: #ffffff;
@@ -98,7 +99,7 @@ background-color: #d4ac0d; /* Un amarillo más oscuro al hacer hover */
     border-radius: 15px;
 }
 
-/* Botones de cada línea de calzado */
+/* Botones de cada Línea de producto */
 .product-item button {
 margin-top: 10px;
 padding: 10px 20px;
@@ -115,7 +116,7 @@ background-color: #d4ac0d; /* Un amarillo más oscuro al hacer hover */
 }
 
 
-/* Estilos para el formulario de contacto */
+/* Estilo Seccion Formulario de contacto */
 .contact-form {
     padding: 50px 20px;
     background-color: #2b2b2b; /* Fondo oscuro */
@@ -165,12 +166,69 @@ background-color: #d4ac0d; /* Un amarillo más oscuro al hacer hover */
     background-color: #d4ac0d; /* Un amarillo más oscuro al hacer hover */
 }
 
-.product-line {
-background-color: #000000;
+
+
+
+
+
+/* Estilo Seccion tarjetas de cada Linea */
+.linea-calzado {
+    padding: 50px 20px;
+    background: #ffffff;
+    color: #333;
 }
 
-#linea1 {
-    height: 1px;
-    margin: 30px 0;
-    background-color: black;
+.tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.tarjeta {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    width: 30%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.tarjeta:hover {
+    transform: translateY(-10px);
+}
+
+.tarjeta img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.descripcion {
+    padding: 15px;
+}
+
+.descripcion h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.descripcion p {
+    font-size: 1em;
+    color: #666;
+}
+
+/* Estilos adaptativos */
+@media (max-width: 768px) {
+    .tarjeta {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .tarjeta {
+        width: 100%;
+    }
 }
