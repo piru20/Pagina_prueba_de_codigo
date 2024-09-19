@@ -175,8 +175,8 @@ background-color: #d4ac0d; /* Un amarillo más oscuro al hacer hover */
 /* Estilo Seccion tarjetas de cada Linea */
 .linea-calzado {
     padding: 50px 20px;
-    background: #ffffff;
-    color: #333;
+    background-image: url(/img/Fondos/negro\ 2.jpg);
+    color: #ffffff;
 }
 
 .tarjetas {
