@@ -20,7 +20,7 @@ body, html {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.2); /* Overlay oscuro */
+    background: rgba(0, 0, 0, 0.1); /* Overlay oscuro */
 }
 
 .hero-content {
@@ -40,6 +40,7 @@ body, html {
     padding: 10px; /* Añadir un poco de espacio dentro del borde */
     display: inline-block; /* Para que el borde se ajuste al tamaño del texto */
     border-radius: 15px; /* Curvatura en los ángulos */
+    background: rgba(0, 0, 0, 0.4); /* Overlay oscuro */
 }
 
 .hero h2 {
