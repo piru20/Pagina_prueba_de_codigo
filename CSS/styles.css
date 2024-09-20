@@ -6,6 +6,11 @@ body, html {
     background-color: #2b2b2b;
 }
 
+.custom-text {
+    font-family: 'Arial', sans-serif; /* Cambia 'Arial' por la tipografía que prefieras */
+    font-size: 13px; /* Cambia el tamaño de fuente según tus necesidades */
+}
+
 /* Imagen de fondo y overlay */
 .hero {
     position: relative;
@@ -198,7 +203,7 @@ background-color: #d4ac0d; /* Un amarillo más oscuro al hacer hover */
 }
 
 .tarjeta:hover {
-    /*transform: translateY(-10px);*/
+    transform: translateY(-10px);
     box-shadow: 0px 0px 40px #f1c40f;
 }
 
