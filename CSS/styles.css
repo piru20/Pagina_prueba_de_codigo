@@ -89,8 +89,9 @@ background-color: #d4ac0d; /* Un amarillo más oscuro al hacer hover */
 /* Estilo Sección Lineas de productos */
 .products {
     padding: 50px 20px;
-    background: #ffffff;
-    color: #333;
+    background: url(/img/Fondos/negro\ 2.jpg);
+    background-size: cover; /* para asegurar que la imagen cubra completamente el area */
+    color: #ffffff;
     text-align: center;
 }
 
