@@ -187,17 +187,19 @@ background-color: #d4ac0d; /* Un amarillo más oscuro al hacer hover */
 }
 
 .tarjeta {
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 8px;
+    background-color: #0000;
+    /*border: 1px solid #ddd;*/
+    border-radius: 10px;
     margin: 10px;
-    width: 30%;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 20%;
+    box-shadow: 0px 0px 30px grey;
     transition: transform 0.3s ease;
+    margin-bottom: 1%;
 }
 
 .tarjeta:hover {
-    transform: translateY(-10px);
+    /*transform: translateY(-10px);*/
+    box-shadow: 0px 0px 40px #f1c40f;
 }
 
 .tarjeta img {
@@ -208,18 +210,21 @@ background-color: #d4ac0d; /* Un amarillo más oscuro al hacer hover */
 }
 
 .descripcion {
+    background: #000000;
     padding: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .descripcion h3 {
     font-size: 1.2em;
-    color: #333;
+    color: #ffffff;
     margin-bottom: 10px;
 }
 
 .descripcion p {
     font-size: 1em;
-    color: #666;
+    color: #ffffff;
 }
 
 /* Estilos adaptativos */
