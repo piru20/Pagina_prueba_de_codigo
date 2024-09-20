@@ -6,6 +6,7 @@ body, html {
     background-color: #2b2b2b;
 }
 
+/* estilo de texto y tamaño de las tarjetas*/
 .custom-text {
     font-family: 'Arial', sans-serif; /* Cambia 'Arial' por la tipografía que prefieras */
     font-size: 13px; /* Cambia el tamaño de fuente según tus necesidades */
@@ -224,12 +225,15 @@ background-color: #d4ac0d; /* Un amarillo más oscuro al hacer hover */
 .descripcion h3 {
     font-size: 1.2em;
     color: #ffffff;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    text-align: center;
 }
 
 .descripcion p {
     font-size: 1em;
-    color: #ffffff;
+    color: #d4ac0d;
+    text-align: center;
+    /*font-weight: bold;*/
 }
 
 /* Estilos adaptativos */
