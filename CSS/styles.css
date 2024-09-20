@@ -176,6 +176,7 @@ background-color: #d4ac0d; /* Un amarillo más oscuro al hacer hover */
 .linea-calzado {
     padding: 50px 20px;
     background-image: url(/img/Fondos/negro\ 2.jpg);
+    background-size: cover; /* para asegurar que la imagen cubra completamente el area */
     color: #ffffff;
 }
 
