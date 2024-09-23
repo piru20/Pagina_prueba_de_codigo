@@ -176,9 +176,6 @@ background-color: #d4ac0d; /* Un amarillo más oscuro al hacer hover */
 
 
 
-
-
-
 /* Estilo Seccion tarjetas de cada Linea */
 .linea-calzado {
     padding: 50px 20px;
@@ -247,5 +244,50 @@ background-color: #d4ac0d; /* Un amarillo más oscuro al hacer hover */
 @media (max-width: 480px) {
     .tarjeta {
         width: 100%;
+    }
+}
+
+/* Estilos para los iconos flotantes */
+.floating-icons {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.floating-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: #0563ef8c; /* Azul inicial */
+    border-radius: 50%;
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.floating-icons a:hover {
+    background-color: #f1c40f; /* Amarillo Borcal */
+}
+
+.floating-icons a i {
+    pointer-events: none;
+}
+
+/* Ajustar tamaño en pantallas pequeñas */
+@media (max-width: 768px) {
+    .floating-icons {
+        bottom: 15px;
+        right: 15px;
+    }
+    .floating-icons a {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
     }
 }
