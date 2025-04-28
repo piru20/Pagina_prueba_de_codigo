@@ -16,7 +16,7 @@ body, html {
 .hero {
     position: relative;
     height: 100vh;
-    background: url('/img/Fabrica-pano-borcal.jpg') no-repeat center center/cover;
+    background: url('img/Fabrica-pano-borcal.jpg') no-repeat center center/cover;
 }
 
 .hero::before {
